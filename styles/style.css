@@ -140,6 +140,7 @@ p {
 .question-creator {
   width: 90%;
   margin: 2rem auto;
+  font-size: 1rem;
 }
 
 .question-creator form {
@@ -155,6 +156,26 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (min-width: 375px) {
+  .question-creator {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .questions {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .question-creator {
+    width: 768px;
+  }
+  .question-creator form {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 .btn {
